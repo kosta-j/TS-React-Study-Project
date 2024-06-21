@@ -1,0 +1,33 @@
+.infobox {
+  margin-top: 16px;
+  padding: 1em;
+  font-size: 0.7em;
+  line-height: 1.2;
+}
+
+.infoboxHint {
+  color: grey;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 4px;
+}
+.infoboxWarning {
+  color: gray;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 4px;
+
+  h2 {
+    text-transform: uppercase;
+  }
+  &.low {
+    color: orange;
+    border: 1px solid orange;
+  }
+  &.medium {
+    color: deeppink;
+    border: 1px solid deeppink;
+  }
+  &.high {
+    color: red;
+    border: 1px solid red;
+  }
+}
